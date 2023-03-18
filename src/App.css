@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap");
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.container-items {
+  max-width: 1200px; /* set maximum width of container */
+  margin: 0 auto; /* center container using margin */
+  text-align: left; /* align text to the left */
+  padding-top: 20px;
+}
+#linkInput {
+  background-color: #3a3053;
+  background-image: url("/public/images/bg-shorten-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#footer-banner {
+  background-color: #3a3053;
+  background-image: url("/public/images/bg-boost-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  .container-items {
+    max-width: 100%; /* set maximum width to 100% on smaller screens */
+    padding: 20px !important; /* reduce padding on smaller screens */
+  }
+
+  #linkInput {
+    background-color: #3a3053;
+    background-image: url("/public/images/bg-shorten-mobile.svg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #footer-banner {
+    background-color: #3a3053;
+    background-image: url("/public/images/bg-boost-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
