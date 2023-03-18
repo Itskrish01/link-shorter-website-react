@@ -66,32 +66,32 @@ const Navbar = () => {
               exit={{ opacity: 0, y: -50 }}
               className="absolute w-full left-0 top-0 mt-5 px-5"
             >
-              <div className="flex flex-col rounded-lg shadow-lg  bg-gray-200 text-black justify-between sm:hidden">
+              <div className="flex flex-col rounded-lg shadow-lg  bg-[#4b3f6b] text-black justify-between sm:hidden">
                 <div className="flex flex-col">
                   <div className="px-4 text-xl text-gray-500 items-center flex justify-between py-4">
-                    <h2 className="text-3xl sm:text-4xl mr-4 font-semibold text-[#35323d]">
+                    <h2 className="text-3xl sm:text-4xl mr-4 font-semibold text-[#f9f8fd]">
                       <a href="/">Shortly</a>
                     </h2>
                     <div
                       onClick={() => setOpen(false)}
-                      className="focus:text-black hover:text-black/70"
+                      className="focus:text-white text-white hover:text-white"
                     >
                       <RxCross2 />
                     </div>
                   </div>
-                  <div className="px-4 text-[#3f4b66] border-dashed border-b-[1px] border-black/20 flex justify-between py-5 bg-gray-300/20 ">
+                  <div className="px-4 text-[#f5f8ff] border-dashed border-b-[1px] border-black/20 flex justify-between py-5  ">
                     <a className="text-sm font-semibold px-4" href="">
                       Features
                     </a>
                     <MdChevronRight />
                   </div>
-                  <div className="px-4 text-[#3f4b66] border-dashed border-b-[1px] border-black/20 flex justify-between py-5 bg-gray-300/20 ">
+                  <div className="px-4 text-[#e6ecf9] border-dashed border-b-[1px] border-black/20 flex justify-between py-5  ">
                     <a className="text-sm font-semibold px-4" href="">
                       Pricing
                     </a>
                     <MdChevronRight />
                   </div>
-                  <div className="px-4 text-[#3f4b66] border-dashed border-b-[1px] border-black/20 flex justify-between py-5 bg-gray-300/20 ">
+                  <div className="px-4 text-[#e7ecf7] border-dashed border-b-[1px] border-black/20 flex justify-between py-5  ">
                     <a className="text-sm font-semibold px-4" href="">
                       Resources
                     </a>
@@ -99,7 +99,7 @@ const Navbar = () => {
                   </div>
                 </div>
                 <div className="flex flex-col px-2 text-center justify-center w-full py-2">
-                  <button class="px-4 py-2 w-full rounded-full space-x-2 bg-primary border-white/30  text-black/60 hover:bg-white/20 focus:bg-white/20 active:bg-white/25">
+                  <button class="px-4 py-2 w-full rounded-full space-x-2 bg-primary border-white/30  text-white hover:bg-white/20 focus:bg-white/20 active:bg-white/25">
                     <p className="pb-0.5 font-semibold">Log in</p>
                   </button>
                   <button
