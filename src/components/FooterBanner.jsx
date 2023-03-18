@@ -3,7 +3,7 @@ import React from "react";
 const FooterBanner = () => {
   return (
     <div className="py-10 text-center">
-      <h2 className="text-white text-[2rem] sm:text-[2rem] font-black leading-[60px] sm:leading-[70px]">
+      <h2 className="text-white px-2 text-[2rem] sm:text-[2rem] font-black leading-[60px] sm:leading-[70px]">
         Boosts your links today
       </h2>
       <button

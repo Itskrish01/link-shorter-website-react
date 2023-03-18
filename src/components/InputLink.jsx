@@ -48,7 +48,7 @@ const InputLink = () => {
     <form
       id="linkInput"
       onSubmit={onSubmitLink}
-      className="absolute w-[95%] mx-2.5 sm:mx-0 mt-10 sm:w-full sm:flex-row flex-col left-0 -top-20 gap-5 flex px-8 py-6 sm:px-14 sm:py-10 rounded-lg"
+      className="absolute w-[95%] sm:text-left text-center mx-2.5 sm:mx-0 mt-10 sm:w-full sm:flex-row flex-col left-0 -top-20 gap-5 flex px-8 py-6 sm:px-14 sm:py-10 rounded-lg"
     >
       <div className="w-full">
         <input
@@ -71,7 +71,7 @@ const InputLink = () => {
       <button
         type="submit"
         disabled={isLoading}
-        className="bg-[#29d1d0] disabled:bg-[#58cfcf] inline-flex items-center transition duration-150 ease-in-out flex-1 py-4 w-full sm:py-0 hover:bg-[#84ebeb] text-white font-bold px-10 rounded-lg whitespace-nowrap"
+        className="bg-[#29d1d0] disabled:bg-[#58cfcf] text-center inline-flex items-center transition duration-150 ease-in-out flex-1 py-4 w-full sm:py-0 hover:bg-[#84ebeb] text-white font-bold px-10 rounded-lg whitespace-nowrap"
       >
         {isLoading ? (
           <>
