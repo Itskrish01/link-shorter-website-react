@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div class="flex flex-col-reverse sm:flex-row mt-44 sm:mt-10 mb-20 sm:text-left text-center md:flex-col-reverse lg:flex-row h-[50vh] sm:h-[60vh] gap-8 sm:gap-20 items-center">
+    <div class="flex flex-col-reverse sm:flex-row mt-60 sm:mt-10 mb-20 sm:text-left text-center md:flex-col-reverse lg:flex-row h-[50vh] sm:h-[60vh] gap-8 sm:gap-20 items-center">
       <div class="w-full sm:w-1/2">
         <h1 class="text-[#35323d] text-[3rem] sm:text-[4rem] font-black leading-[60px] sm:leading-[70px]">
           More than just shorter links
@@ -20,9 +20,9 @@ const Header = () => {
           </button>
         </div>
       </div>
-      <div class="w-full sm:w-1/2 flex justify-center">
+      <div class="w-full sm:mt-0 top-5 sm:w-1/2 relative -z-10 flex justify-center">
         <img
-          class="h-auto max-w-md"
+          class=""
           src="/images/illustration-working.svg"
           alt="image"
         />
